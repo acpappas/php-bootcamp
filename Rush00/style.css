@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {background: rgba(127, 123, 130, 1);}
+
+.main_wrapper{
+    width: 1500px;
+    height:auto;
+    margin:auto;
+    background: rgba(219, 127, 103, 1);
+}
+
+.header_wrapper{
+    width: 1500px;
+    height:100px;
+    margin:auto;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+#narrative {float: center;}
+
+.menu_bar{
+    width: auto;
+    height: 100px;
+    background: rgba(84, 59, 77, 1);
+}
+
+#menu{
+    float: left;
+    padding:0;
+    margin:0;
+    line-height: 80px;
+}
+
+#menu li {
+    list-style:none;
+    display:inline;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    padding:60px;
+    margin:20px;
+    font-size:18px;
+    font-family: fantasy;
+}
+
+#menu a:hover{
+    color: rgb(212, 65, 29); 
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+
+.content_wrapper{
+    width: 1500px;
+    margin: auto;
+    height: auto;
+}
+
+#form{
+    float: right;
+    padding: 20px;
+    line-height: 50px;
+}
+
+#content_area{
+    width: 1000px;
+    float: right;
+    background-color:  rgba(228, 230, 195, 1);
+}
+#sidebar{
+    width: 500px;
+    background:  rgba(219, 127, 103, 1);
+    float: left;
+}
+
+#sidebar_title{
+    color: black;
+    background:  rgb(212, 65, 29) ;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#cats{
+    padding: 0;
+    text-align: left;
+}
+
+#cats li{
+    list-style:none;
+    margin: 5px;
+}
+
+#cats a{
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#cats a:hover{
+    color:black ;
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+
+#products_box{
+    width:780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;;
+}
+
+#single_product{float:left; margin-left:30px; padding:10px;}
+
+#single_product img{border:2px rgba(11, 57, 84, 1);}
+
+#shopping_cart{width:1000px; height:50px; background-color: black; color: white;}
+
+#footer{
+    width: auto;
+    height: 200px;
+    background:  rgba(11, 57, 84, 1);
+    clear: both;
+}
