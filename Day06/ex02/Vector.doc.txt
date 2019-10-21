@@ -1,0 +1,25 @@
+More Maths
+    public function __construct(array $vec){
+
+        $this->_dest = $vec['dest'];
+
+        if(!isset($vec['orig']))
+        {
+            $vec['orig'] = new Vertex(array('x'=>0.0, 'y'=>0.0, 'z'=>0.0));
+        }
+        
+       $_orig = new Vertex(array('x' =>$vec['orig']->rx(), 'y' =>$vec['orig']->ry(), 'z' =>$vec['orig']->rz(), 'color' =>$vec['orig']->rcolor()));
+
+        $this->_x = $this->_dest->rx() - $vec['orig']->rx();
+        $this->_y = $this->_dest->rx() - $vec['orig']->ry();
+        $this->_z = $this->_dest->rx() - $vec['orig']->rz();
+        
+        if($vec['dest']->rw()){
+        $this->_w = $this->_dest->rw() - $vec['orig']->rw();
+        }
+
+        if (Self::$verbose) {
+            echo($this->__toString()." constructed.".PHP_EOL);
+         }
+
+    }
